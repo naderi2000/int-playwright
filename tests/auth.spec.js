@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+const { test, expect } = require("@playwright/test");
 
 test("POST API Request", async ({ request }) => {
   const response = await request.post(
